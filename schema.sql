@@ -18,7 +18,7 @@ CREATE TABLE owners (
 --create species table
 CREATE TABLE species (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	full_name VARCHAR(250) NOT NULL
+	name VARCHAR(250) NOT NULL
 );
 
 --Add foreign keys to animal table
